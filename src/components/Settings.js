@@ -11,13 +11,13 @@ import {
 
 class Settings extends React.PureComponent {
   state = {
-    length: 14,
+    length: 19,
     lowerCase: true,
     upperCase: true,
     numbers: true,
     symbols: true,
-    allowedSymbols: '@!*_-:=#/{}[]',
-    amount: 3
+    allowedSymbols: '!_-#/{}[]',
+    amount: 7
   };
 
   handleChange = ({ target }) => {
